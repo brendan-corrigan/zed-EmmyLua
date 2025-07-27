@@ -24,3 +24,7 @@ To develop this extension, see the [Developing Extensions](https://zed.dev/docs/
    - Navigate to and select the `zed-emmylua` folder in your cloned repository
 
 3. **Configure Lua LSP**
+   - Open zed settings and add the following line to add emmylua as the lsp for lua
+   ```json
+    "languages": { "Lua": { "language_servers": ["emmylua"] } }
+   ```
